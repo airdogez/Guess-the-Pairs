@@ -13,6 +13,9 @@ Preloader.prototype = {
     /*
      Imagenes a cargar
      */
+     this.load.spritesheet('cards','assets/playingCards.png',190,140);
+     this.load.spritesheet('cards-back','assets/playingCardBacks.png',190,140);
+     this.load.spritesheet('buttons','assets/buttons.png',190,49);
   },
 
   create:function() {
