@@ -1,0 +1,4 @@
+{
+  "libs": ["browser","jquery", "def", "comment", "infer"],
+    "loadEagerly": ["phaser.js"]
+}
